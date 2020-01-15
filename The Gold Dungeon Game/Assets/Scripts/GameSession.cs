@@ -64,6 +64,7 @@ public class GameSession : MonoBehaviour
     public void Endgame()
     {
         Destroy(gameObject);
+        SceneManager.LoadScene(1);
     }
 
 
